@@ -23,7 +23,8 @@ class Recipe
 	end
 end
 
-pasta = Recipe.new('Sukiyaki', '35', '[beef, tofu, negi, shungiku, shiitake, shiratake noodles]')
-pasta.addIngredient("peper")
-pasta.addIngredient("zout")
-pasta.getIngredients
+sushi = Recipe.new('Sukiyaki', '35', '[beef, tofu, negi, shungiku, shiitake, shiratake noodles]')
+sushi.addIngredient("peper")
+sushi.addIngredient("zout")
+sushi.addIngredient("komijn")
+sushi.getIngredients
